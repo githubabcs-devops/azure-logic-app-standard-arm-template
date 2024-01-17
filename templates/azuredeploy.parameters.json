@@ -3,13 +3,13 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
       "logicAppFEname": {
-          "value": "logicapp-cl-private"
+          "value": "logicapp-cl-private-001"
       },
       "fileShareName": {
           "value": "salogicappclfs001"
       },
       "appInsightName": {
-          "value": "logicapp-cl-private"
+          "value": "logicapp-cl-private-001"
       },
       "use32BitWorkerProcess": {
           "value": true
@@ -18,7 +18,7 @@
           "value": "Canada Central"
       },
       "hostingPlanFEName": {
-          "value": "logicapplan-cl-private"
+          "value": "logicapplan-cl-private-001"
       },
       "contentStorageAccountName": {
           "value": "salogicappclst001"
