@@ -3,7 +3,8 @@
 
 At present, we don't have an option to use the Azure portal to deploy Standard Logic App with secured storage account. However, we can work with ARM templates which let us to use the Storage account behind firewall for Logic App standard resource deployment.
 
- [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FVeeraMS%2FLogicApp-deployment-with-Secure-Storage%2Fmain%2Ftemplates%2FDeployResources.json)
+[![Deploy To Azure](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https://raw.githubusercontent.com/githubabcs-devops/azure-logic-app-standard-arm-template/main/templates/azuredeploy.json)
+[![Visualize](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.svg?sanitize=true)](http://armviz.io/#/?load=https://raw.githubusercontent.com/githubabcs-devops/azure-logic-app-standard-arm-template/main/templates/azuredeploy.json)
 
 You can refer to the templates available in the templates folder. You can use deploy custom template option in the Azure Portal or Powershell to deploy the ARM templates.
 
