@@ -3,73 +3,72 @@
     "contentVersion": "1.0.0.0",
   "parameters": {
     "logicAppFEname": {
-      "type": "String"
+      "type": "string"
     },
         "fileShareName": {
-      "type": "String"
+      "type": "string"
     },
     "appInsightName": {
-      "type": "String"
+      "type": "string"
     },
     "use32BitWorkerProcess": {
-      "type": "Bool"
+      "type": "bool"
     },
     "location": {
       "defaultValue": "[resourceGroup().location]",
-      "type": "String",
+      "type": "string",
       "metadata": {
         "description": "Location to deploy resources to."
       }
     },
     "hostingPlanFEName": {
-      "type": "String"
+      "type": "string"
     },
     "contentStorageAccountName": {
-      "type": "String"
+      "type": "string"
     },
     "sku": {
-      "type": "String"
+      "type": "string"
     },
     "skuCode": {
-      "type": "String"
+      "type": "string"
     },
     "workerSize": {
-      "type": "String"
+      "type": "string"
     },
     "workerSizeId": {
-      "type": "String"
+      "type": "string"
     },
     "numberOfWorkers": {
-      "type": "String"
+      "type": "string"
     },
     "vnetName": {
       "defaultValue": "VirtualNetwork",
-      "type": "String",
+      "type": "string",
       "metadata": {
         "description": "Name of the VNET that the Function App and Storage account will communicate over."
       }
     },
     "subnetName": {
-      "type": "String"
+      "type": "string"
     },
-
     "virtualNetworkAddressPrefix": {
       "defaultValue": "10.100.0.0/16",
-      "type": "String",
+      "type": "string",
       "metadata": {
         "description": "VNET address space."
       }
     },
     "functionSubnetAddressPrefix": {
       "defaultValue": "10.100.0.0/24",
-      "type": "String",
+      "type": "string",
       "metadata": {
         "description": "Function App's subnet address range."
       }
     },
     "privateEndpointSubnetAddressPrefix": {
       "defaultValue": "10.100.1.0/24",
-      "type": "String",
+      "type": "string",
       "metadata": {
         "description": "Storage account's private endpoint's subnet address range."
       }

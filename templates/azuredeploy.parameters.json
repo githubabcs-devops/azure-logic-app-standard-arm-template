@@ -20,7 +20,6 @@
     "hostingPlanFEName": {
       "value": "logicapplan-cl-private"
     },
-
     "contentStorageAccountName": {
       "value": "salogicappclst001"
     },
