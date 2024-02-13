@@ -3,16 +3,20 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
       "logicAppFEname": {
-          "type": "String"
+          "type": "String",
+          "defaultValue": "logicapp-cl-private-001"
       },
       "fileShareName": {
-          "type": "String"
+          "type": "String",
+          "defaultValue": "salogicappclfs001"
       },
       "appInsightName": {
-          "type": "String"
+          "type": "String",
+          "defaultValue": "logicapp-cl-private-001"
       },
       "use32BitWorkerProcess": {
-          "type": "Bool"
+          "type": "Bool",
+          "defaultValue": true
       },
       "location": {
           "defaultValue": "Canada Central",
@@ -22,35 +26,43 @@
           }
       },
       "hostingPlanFEName": {
-          "type": "String"
+          "type": "String",
+          "defaultValue": "logicapplan-cl-private-001"
       },
       "contentStorageAccountName": {
-          "type": "String"
+          "type": "String",
+          "defaultValue": "salogicappclst001"
       },
       "sku": {
-          "type": "String"
+          "type": "String",
+          "defaultValue": "WorkflowStandard"
       },
       "skuCode": {
-          "type": "String"
+          "type": "String",
+          "defaultValue": "WS1"
       },
       "workerSize": {
-          "type": "String"
+          "type": "String",
+          "defaultValue": "3"
       },
       "workerSizeId": {
-          "type": "String"
+          "type": "String",
+          "defaultValue": "3"
       },
       "numberOfWorkers": {
-          "type": "String"
+          "type": "String",
+          "defaultValue": "1"
       },
       "vnetName": {
-          "defaultValue": "VirtualNetwork",
+          "defaultValue": "vnet-logicapp-cl-private",
           "type": "String",
           "metadata": {
               "description": "Name of the VNET that the Function App and Storage account will communicate over."
           }
       },
       "subnetName": {
-          "type": "String"
+          "type": "String",
+          "defaultValue": "subnet1-logicapp-cl-private"
       },
       "virtualNetworkAddressPrefix": {
           "defaultValue": "10.100.0.0/16",
